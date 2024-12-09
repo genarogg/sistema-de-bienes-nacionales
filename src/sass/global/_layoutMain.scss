@@ -4,8 +4,20 @@
     min-height: 100vh;
     min-height: 100dvh;
 
+    background-image: url('/bg-home.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #227bff;
+
     .header-demo {
         background-color: #227bff;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-demo {

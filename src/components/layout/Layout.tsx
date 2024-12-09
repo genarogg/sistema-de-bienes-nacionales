@@ -11,7 +11,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <LayoutMain 
             header={<HeaderOneElementCenter text="sistema de inventario" />} 
             footer={<SimpleFooter 
-            text='Hospital Dr. José Rangel 💚' />}>
+            text='💚 Hospital Dr. José Rangel 💚' />}>
             {children}
         </LayoutMain>
     );

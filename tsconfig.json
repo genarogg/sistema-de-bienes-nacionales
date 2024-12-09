@@ -17,8 +17,9 @@
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@layout": ["./src/components/layout/Layout.tsx"],
+      "@fn/*": ["./src/functions/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/**/*.ts"],
   "exclude": ["node_modules"]
 }

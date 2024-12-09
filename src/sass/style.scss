@@ -5,4 +5,7 @@
 @import "./lib/_normalize.scss";
 @import "./style.module.scss";
 
-@import "./global/layoutMain"
+@import "./global/layoutMain";
+@import "../components/formLoki/sass/formLoki.scss";
+@import "./pages/global.scss";
+@import "./pages/home.scss";

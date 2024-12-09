@@ -1,0 +1,29 @@
+.login.front,
+.register.right,
+.reset.left {
+    backdrop-filter: $blur;
+    box-shadow: $box-shadow;
+    background-color: #1c1c1c30;
+    border: 1px solid #fff !important;
+
+    .container-input span.holder {
+        background-color: #076a9b;
+    }
+
+    .btn-submit-basic {
+
+        button {
+
+            &:hover,
+            &:active,
+            &:focus,
+            &:disabled {
+                color: #282828;
+            }
+        }
+    }
+
+    .text-recovery{
+        color: #fff;
+    }
+}

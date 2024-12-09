@@ -10,7 +10,7 @@
     "movefile": "node ./node_modules/nanify/movefile.js"
   },
   "dependencies": {
-    "nanify": "^0.1.87",
+    "nanify": "^0.1.90",
     "next": "13.5.7",
     "react": "^18",
     "react-dom": "^18",
